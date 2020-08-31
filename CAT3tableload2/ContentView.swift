@@ -8,11 +8,30 @@
 
 import SwiftUI
 
+
+let pickerView = PickerView()
+
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            Form{
+             pickerView
+                Section{
+                    Text("Number Correct")
+                }
+                Section{
+                    Text("Reading")
+                    Text("Math")
+                    Text("Vocabulary")
+                }
+            }
+        .navigationBarTitle(Text("CAT3 Data Entry"))
+        }
+       
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
