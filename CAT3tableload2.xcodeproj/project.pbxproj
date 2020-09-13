@@ -15,6 +15,7 @@
 		AA0E85EC24F95970006D8C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0E85EA24F95970006D8C42 /* LaunchScreen.storyboard */; };
 		AA0E85F524F959B1006D8C42 /* CAT3tableload2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA0E85F324F959B1006D8C42 /* CAT3tableload2.xcdatamodeld */; };
 		AA0E85F724F95A10006D8C42 /* levelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0E85F624F95A10006D8C42 /* levelPickerView.swift */; };
+		AAB525C8250AFE720020F61E /* Scoreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB525C7250AFE720020F61E /* Scoreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AA0E85ED24F95970006D8C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA0E85F424F959B1006D8C42 /* CAT3tableload.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CAT3tableload.xcdatamodel; sourceTree = "<group>"; };
 		AA0E85F624F95A10006D8C42 /* levelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelPickerView.swift; sourceTree = "<group>"; };
+		AAB525C7250AFE720020F61E /* Scoreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AA0E85DC24F9596A006D8C42 /* AppDelegate.swift */,
 				AA0E85DE24F9596A006D8C42 /* SceneDelegate.swift */,
 				AA0E85E324F9596A006D8C42 /* ContentView.swift */,
+				AAB525C7250AFE720020F61E /* Scoreview.swift */,
 				AA0E85F624F95A10006D8C42 /* levelPickerView.swift */,
 				AA0E85E524F95970006D8C42 /* Assets.xcassets */,
 				AA0E85EA24F95970006D8C42 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				AA0E85DD24F9596A006D8C42 /* AppDelegate.swift in Sources */,
 				AA0E85F524F959B1006D8C42 /* CAT3tableload2.xcdatamodeld in Sources */,
 				AA0E85F724F95A10006D8C42 /* levelPickerView.swift in Sources */,
+				AAB525C8250AFE720020F61E /* Scoreview.swift in Sources */,
 				AA0E85E424F9596A006D8C42 /* ContentView.swift in Sources */,
 				AA0E85DF24F9596A006D8C42 /* SceneDelegate.swift in Sources */,
 			);

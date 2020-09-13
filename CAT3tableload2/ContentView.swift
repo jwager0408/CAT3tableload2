@@ -13,20 +13,34 @@ let pickerView = PickerView()
 
 
 struct ContentView: View {
+    @State var level = ""
+    @State var score = ""
+    @State var catHeading = ["Reading","Language","Vocabulary", "Math", "Computations","Word Analysis","Spelling","Writing"]
+    @State var reading = ""
+    @State var language = ""
+    @State var vocabulary = ""
+    @State var math = ""
+    
+    
+    var tableScore = CAT3coretbl() 
+    
     var body: some View {
         NavigationView {
             Form{
              pickerView
                 Section{
-                    Text("Number Correct")
+                    TextField("Number Correct", text: $score)
+                        .keyboardType(.numberPad)
                 }
                 Section{
-                    Text("Reading")
-                    Text("Math")
-                    Text("Vocabulary")
+                    ForEach(0 ..< catHeading.count) {
+                        Scoreview(heading: self.$catHeading[$0])
+                
+                    }
                 }
             }
         .navigationBarTitle(Text("CAT3 Data Entry"))
+        .padding()
         }
        
     }
