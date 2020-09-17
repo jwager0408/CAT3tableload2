@@ -16,15 +16,12 @@ struct Scoreview: View {
     
     
     var body: some View {
-        TextField(heading, text: $score){
+        TextField(heading, text: $score, onCommit: {
             self.validatescore()
-            
-        }
+        })
         .keyboardType(.numberPad)
     }
    
-
-
     func validatescore() {
 
     
