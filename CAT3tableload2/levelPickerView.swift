@@ -10,8 +10,6 @@ import SwiftUI
 
 struct PickerView : View {
     
-
-    
     let levelPickerData = ["CAT11", "CAT12","CAT13", "CAT14","CAT15", "CAT16","CAT17", "CAT18","CAT19", "CAT20"]
 
     @State private var levelIndex = 0

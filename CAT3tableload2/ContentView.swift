@@ -10,6 +10,7 @@ import SwiftUI
 
 
 let pickerView = PickerView()
+let rawPW = rawPickerView()
 
 
 struct ContentView: View {
@@ -27,22 +28,18 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form{
+                
              pickerView
-                Section{
-                    TextField("Number Correct", text: $score)
-                        .keyboardType(.numberPad)
-                }
+             rawPW
                 Section{
                     ForEach(0 ..< catHeading.count) {
                         Scoreview(heading: self.$catHeading[$0])
-                
                     }
                 }
             }
         .navigationBarTitle(Text("CAT3 Data Entry"))
         .padding()
-        }
-       
+    }
     }
 }
 
